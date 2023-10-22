@@ -22,3 +22,15 @@ class Restaurant:
     def describe_restaurant(self):
         print(f'{self.name.title()} is open now!')
 
+
+restaurant0 = Restaurant('felis\'', 'vegan specialities') 
+restaurant1 = Restaurant('pilatus\'', 'rabbit specialities')
+restaurant2 = Restaurant('adonis\'', 'all you can eat')
+
+
+restaurants = [restaurant0, restaurant1, restaurant2]
+
+for x in restaurants:
+    x.describe_restaurant()
+
+print(restaurants)
