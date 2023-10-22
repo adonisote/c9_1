@@ -62,3 +62,4 @@ for x in users:
     x.greet_user()
 
 print('I dont know how I lost the local git')
+print('After the pulling')
