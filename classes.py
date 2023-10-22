@@ -60,3 +60,5 @@ users = [user0, user1, user2]
 for x in users:
     x.describe_user()
     x.greet_user()
+
+print('I dont know how I lost the local git')
